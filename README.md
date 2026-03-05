@@ -137,12 +137,17 @@ Implemented Deformable NeRF for photorealistic 3D face reconstruction from monoc
 
 ---
 
-## 📈 GitHub Stats
+## 📈 GitHub Activity
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Rajkumar2002-Rk&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajkumar2002-Rk&layout=compact&theme=tokyonight&hide_border=true" />
+[![GitHub Streak](https://streak-stats.demolab.com?user=Rajkumar2002-Rk&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://github.com/Rajkumar2002-Rk)
+
+</div>
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Rajkumar2002-Rk&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/Rajkumar2002-Rk)
 
 </div>
 
@@ -154,7 +159,7 @@ I'm actively seeking **Machine Learning Engineer**, **Data Engineer**, and **Clo
 
 | | |
 |---|---|
-| 💼 **LinkedIn** | [linkedin.com/in/raj-kumar-nelluri](https://linkedin.com/in/raj-kumar-nelluri) |
+| 💼 **LinkedIn** | [linkedin.com/in/raj-kumar-nelluri]((https://www.linkedin.com/in/raj-kumar-nelluri-351389393/)) |
 | 🌐 **Portfolio** | [rajkumar2002-rk.github.io/Real_Portfolio](https://rajkumar2002-rk.github.io/Real_Portfolio/) |
 | 📧 **Email** | [rajkumarn2002@gmail.com](mailto:rajkumarn2002@gmail.com) |
 | 🐙 **GitHub** | [github.com/Rajkumar2002-Rk](https://github.com/Rajkumar2002-Rk) |
