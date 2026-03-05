@@ -159,7 +159,7 @@ I'm actively seeking **Machine Learning Engineer**, **Data Engineer**, and **Clo
 
 | | |
 |---|---|
-| 💼 **LinkedIn** | [linkedin.com/in/raj-kumar-nelluri]([https://linkedin.com/in/raj-kumar-nelluri](https://www.linkedin.com/in/raj-kumar-nelluri-351389393/)) |
+| 💼 **LinkedIn** | [linkedin.com/in/raj-kumar-nelluri](https://www.linkedin.com/in/raj-kumar-nelluri-351389393/) |
 | 🌐 **Portfolio** | [rajkumar2002-rk.github.io/Real_Portfolio](https://rajkumar2002-rk.github.io/Real_Portfolio/) |
 | 📧 **Email** | [rajkumarn2002@gmail.com](mailto:rajkumarn2002@gmail.com) |
 | 🐙 **GitHub** | [github.com/Rajkumar2002-Rk](https://github.com/Rajkumar2002-Rk) |
