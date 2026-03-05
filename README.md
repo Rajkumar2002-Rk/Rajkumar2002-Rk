@@ -10,7 +10,7 @@
   from raw data ingestion to real-time model inference and automated retraining.
 </p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raj-kumar-nelluri-351389393/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/raj-kumar-nelluri](https://www.linkedin.com/in/raj-kumar-nelluri-351389393/))
 [![Portfolio](https://img.shields.io/badge/Portfolio-0a0e1a?style=for-the-badge&logo=githubpages&logoColor=white)](https://rajkumar2002-rk.github.io/Real_Portfolio/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajkumarn2002@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rajkumar2002-Rk)
@@ -147,7 +147,7 @@ Implemented Deformable NeRF for photorealistic 3D face reconstruction from monoc
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Rajkumar2002-Rk&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/Rajkumar2002-Rk)
+[![Raj's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Rajkumar2002-Rk&theme=tokyo-night&hide_border=true&area=true)](https://github.com/Rajkumar2002-Rk)
 
 </div>
 
@@ -159,7 +159,7 @@ I'm actively seeking **Machine Learning Engineer**, **Data Engineer**, and **Clo
 
 | | |
 |---|---|
-| 💼 **LinkedIn** | [linkedin.com/in/raj-kumar-nelluri]((https://www.linkedin.com/in/raj-kumar-nelluri-351389393/)) |
+| 💼 **LinkedIn** | [linkedin.com/in/raj-kumar-nelluri]([https://linkedin.com/in/raj-kumar-nelluri](https://www.linkedin.com/in/raj-kumar-nelluri-351389393/)) |
 | 🌐 **Portfolio** | [rajkumar2002-rk.github.io/Real_Portfolio](https://rajkumar2002-rk.github.io/Real_Portfolio/) |
 | 📧 **Email** | [rajkumarn2002@gmail.com](mailto:rajkumarn2002@gmail.com) |
 | 🐙 **GitHub** | [github.com/Rajkumar2002-Rk](https://github.com/Rajkumar2002-Rk) |
