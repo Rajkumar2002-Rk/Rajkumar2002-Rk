@@ -2,12 +2,12 @@
 
 # Hi 👋 I'm Raj Kumar Nelluri
 
-### Machine Learning Engineer · Data Engineer · AWS ML Systems
+### AI Engineer · Machine Learning Engineer · Data Engineer
 
 <p>
   B.Tech in Artificial Intelligence from Amrita Vishwa Vidyapeetham &nbsp;|&nbsp; MS Computer Science from Pace University, New York<br/>
-  I design and build end-to-end ML pipelines and cloud-native data engineering systems on AWS —<br/>
-  from raw data ingestion to real-time model inference and automated retraining.
+  I build production-ready AI systems — from Generative AI and RAG pipelines to scalable ML workflows<br/>
+  and cloud-native data engineering on AWS. Passionate about turning documents and raw data into intelligent, reliable AI products.
 </p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raj-kumar-nelluri-351389393/)
@@ -23,15 +23,16 @@
 
 ## 🧑‍💻 About Me
 
-I'm a Machine Learning and Data Engineer focused on building **production-grade ML systems** and **scalable data pipelines** on AWS. My work sits at the intersection of machine learning and data infrastructure — I don't just train models; I architect the systems that make them reliable, scalable, and production-ready.
+I'm an AI and Machine Learning Engineer building **production-grade AI systems**, **Generative AI pipelines**, and **scalable data infrastructure** on AWS. My work spans the full AI stack — from RAG chatbots and vector databases to cloud-native ML pipelines and automated MLOps workflows.
 
+- 🤖 I build **Generative AI systems**: RAG pipelines, LangChain, vector databases, prompt engineering, OpenAI API integration
 - 🔭 I build **end-to-end ML pipelines**: data ingestion → feature engineering → model training → real-time inference → automated monitoring
 - ☁️ I design **cloud-native data systems** using AWS S3, Lambda, Kinesis, SageMaker, RDS, and EventBridge
-- 🤖 I apply **ML across domains**: fraud detection, churn prediction, demand forecasting, and computer vision
+- 🧠 I apply **ML across domains**: fraud detection, churn prediction, demand forecasting, and computer vision
 - 📊 I implement **MLOps practices**: data drift detection, automated retraining, CloudWatch monitoring, SageMaker managed training jobs
 - 🎓 AWS Certified Cloud Practitioner · MS CS, Pace University, New York
 
-> *"Good ML engineering is 20% model and 80% infrastructure."*
+> *"Good AI engineering is building systems that are accurate, reliable, and grounded in real data."*
 
 ---
 
@@ -39,6 +40,7 @@ I'm a Machine Learning and Data Engineer focused on building **production-grade 
 
 | Area | What I Do |
 |---|---|
+| **Generative AI** | RAG pipelines, LangChain chains, vector databases, prompt engineering, OpenAI API |
 | **ML Pipelines** | End-to-end pipelines from raw data to real-time inference endpoints |
 | **Data Engineering** | Batch and streaming ETL systems processing 500K+ records with schema validation |
 | **Cloud ML Systems** | AWS-native architectures: S3 → Lambda → Kinesis → SageMaker → RDS |
@@ -48,6 +50,19 @@ I'm a Machine Learning and Data Engineer focused on building **production-grade 
 ---
 
 ## 📊 Featured Projects
+
+### 🟣 Enterprise RAG Chatbot ⭐ Latest
+> *Production-ready Retrieval-Augmented Generation chatbot with source citations*
+
+Built a full RAG pipeline that answers questions from custom PDF documents accurately — with zero hallucinations on out-of-scope queries. The system converts documents into 195 semantic chunks, stores them as vector embeddings in ChromaDB, and retrieves the top-3 most relevant chunks using cosine similarity search to ground every GPT response in real document content.
+
+**Stack:** `Python` `LangChain` `OpenAI API` `ChromaDB` `Streamlit` `PyPDF`
+**Architecture:** PDF → PyPDF → Chunking (500/50) → OpenAI Embeddings → ChromaDB → Cosine Search → GPT-3.5-turbo → Cited Answer
+**Key Results:** 195 chunks indexed · Multi-document querying · Zero hallucinations on out-of-scope questions · Page-level source citations
+
+[![View Repo](https://img.shields.io/badge/GitHub-rag--chatbot-181717?style=flat-square&logo=github)](https://github.com/Rajkumar2002-Rk/rag-chatbot)
+
+---
 
 ### 🔴 Insurance Fraud Detection System
 > *Cloud-native, real-time fraud detection pipeline on AWS*
@@ -92,7 +107,7 @@ Benchmarked LSTM, CNN, and XGBoost on 7-day Bitcoin price forecasting. XGBoost a
 ### 🟣 3D Face Generation with Neural Radiance Fields
 > *Deformable NeRF for photorealistic 3D face reconstruction*
 
-Implemented Deformable NeRF for photorealistic 3D face reconstruction from monocular video. Applied multi-stage preprocessing for camera pose estimation using COLMAP. Reduced GPU memory consumption by over 30% through optimized batch rendering and selective ray sampling. Evaluated with PSNR across multiple synthesized viewpoints.
+Implemented Deformable NeRF for photorealistic 3D face reconstruction from monocular video. Reduced GPU memory consumption by over 30% through optimized batch rendering. Evaluated with PSNR across multiple synthesized viewpoints.
 
 **Stack:** `Python` `JAX` `TensorFlow` `OpenCV` `COLMAP` `NeRF`
 **Result:** 30%+ GPU memory reduction · PSNR-evaluated multi-view synthesis
@@ -105,8 +120,15 @@ Implemented Deformable NeRF for photorealistic 3D face reconstruction from monoc
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
+**Generative AI**
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+`RAG Pipelines` `Vector Databases` `Prompt Engineering` `Embeddings` `Semantic Search`
+
 **Machine Learning**
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logo=data:image/png;base64,&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
@@ -130,10 +152,11 @@ Implemented Deformable NeRF for photorealistic 3D face reconstruction from monoc
 
 ## 🌱 Currently Exploring
 
+- **Generative AI Projects** — building AI Resume Analyzer, Semantic Search Engine, and AI Job Search Agent
+- **Advanced RAG** — re-ranking, RAGAS evaluation framework, multi-modal RAG with images and tables
 - **Advanced MLOps** — model versioning, experiment tracking, and CI/CD for ML systems
-- **Distributed ML Systems** — scaling training and inference across multi-node environments
 - **Large-Scale Data Pipelines** — Apache Spark, AWS Glue, and real-time streaming architectures
-- **Production ML Monitoring** — data drift detection, prediction quality alerting, and model observability
+- **Cloud-Scale Vector Search** — Pinecone, Weaviate for production-grade vector databases
 
 ---
 
@@ -155,7 +178,7 @@ Implemented Deformable NeRF for photorealistic 3D face reconstruction from monoc
 
 ## 🔗 Connect with Me
 
-I'm actively seeking **Machine Learning Engineer**, **Data Engineer**, and **Cloud Engineering** roles at US tech companies and startups.
+I'm actively seeking **AI Engineer**, **Applied AI Engineer**, **Machine Learning Engineer**, and **Data Engineer** roles at US tech companies and startups.
 
 | | |
 |---|---|
