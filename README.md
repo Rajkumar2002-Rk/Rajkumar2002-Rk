@@ -52,13 +52,13 @@ I'm an AI and Machine Learning Engineer building **production-grade AI systems**
 ## 📊 Featured Projects
 
 ### 🟣 Enterprise RAG Chatbot ⭐ Latest
-> *Production-ready Retrieval-Augmented Generation chatbot with source citations*
+> *Production-grade Retrieval-Augmented Generation pipeline with mandatory source citations*
 
-Built a full RAG pipeline that answers questions from custom PDF documents accurately — with zero hallucinations on out-of-scope queries. The system converts documents into 195 semantic chunks, stores them as vector embeddings in ChromaDB, and retrieves the top-3 most relevant chunks using cosine similarity search to ground every GPT response in real document content.
+Built a full production RAG pipeline answering questions from custom PDF documents — with zero hallucinations on out-of-scope queries. Upgraded from a prototype to a production-grade system: MMR retrieval for result diversity, metadata-injected context for traceable citations, centralized config management, and comprehensive error handling throughout.
 
 **Stack:** `Python` `LangChain` `OpenAI API` `ChromaDB` `Streamlit` `PyPDF`
-**Architecture:** PDF → PyPDF → Chunking (500/50) → OpenAI Embeddings → ChromaDB → Cosine Search → GPT-3.5-turbo → Cited Answer
-**Key Results:** 195 chunks indexed · Multi-document querying · Zero hallucinations on out-of-scope questions · Page-level source citations
+**Architecture:** PDF → PyPDF → Chunking (1000/200) → OpenAI Embeddings → ChromaDB → MMR Search (k=5, fetch_k=20) → Metadata Context → GPT-3.5-turbo → [Document | Page] Citations
+**Key Results:** MMR retrieval · Top-5 chunks per query · Zero hallucinations · Mandatory [Document | Page] citations on every response · Multi-document querying
 
 [![View Repo](https://img.shields.io/badge/GitHub-rag--chatbot-181717?style=flat-square&logo=github)](https://github.com/Rajkumar2002-Rk/rag-chatbot)
 
