@@ -54,11 +54,11 @@ I'm an AI and Machine Learning Engineer building **production-grade AI systems**
 ### 🟣 Enterprise RAG Chatbot ⭐ Latest
 > *Production-grade Retrieval-Augmented Generation pipeline with mandatory source citations*
 
-Built a full production RAG pipeline answering questions from custom PDF documents — with zero hallucinations on out-of-scope queries. Upgraded from a prototype to a production-grade system: MMR retrieval for result diversity, metadata-injected context for traceable citations, centralized config management, and comprehensive error handling throughout.
+Built a full production RAG pipeline with two modes: query a pre-loaded document library, or upload any PDF and ask questions instantly. Upgraded from prototype to production: MMR retrieval for result diversity, metadata-injected context for traceable citations, session-isolated upload processing, centralized config management, Dockerized and deployed live on AWS EC2.
 
-**Stack:** `Python` `LangChain` `OpenAI API` `ChromaDB` `Streamlit` `PyPDF`
-**Architecture:** PDF → PyPDF → Chunking (1000/200) → OpenAI Embeddings → ChromaDB → MMR Search (k=5, fetch_k=20) → Metadata Context → GPT-3.5-turbo → [Document | Page] Citations
-**Key Results:** MMR retrieval · Top-5 chunks per query · Zero hallucinations · Mandatory [Document | Page] citations on every response · Multi-document querying
+**Stack:** `Python` `LangChain` `OpenAI API` `ChromaDB` `Streamlit` `PyPDF` `Docker` `AWS EC2`
+**Architecture:** PDF (Library or Upload) → PyPDF → Chunking (1000/200) → OpenAI Embeddings → ChromaDB → MMR Search (k=5, fetch_k=20) → Metadata Context → GPT-3.5-turbo → [SOURCE N: filename | Page] Citations
+**Key Results:** MMR retrieval · Top-5 chunks per query · Zero hallucinations · Mandatory source citations · Upload any PDF mode · Dockerized & deployed on AWS EC2 (24/7 live)
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-AWS%20EC2-brightgreen?style=flat-square&logo=amazonaws)](http://54.197.95.237:8501)  [![View Repo](https://img.shields.io/badge/GitHub-rag--chatbot-181717?style=flat-square&logo=github)](https://github.com/Rajkumar2002-Rk/rag-chatbot)
 
