@@ -60,7 +60,7 @@ Built a full production RAG pipeline answering questions from custom PDF documen
 **Architecture:** PDF → PyPDF → Chunking (1000/200) → OpenAI Embeddings → ChromaDB → MMR Search (k=5, fetch_k=20) → Metadata Context → GPT-3.5-turbo → [Document | Page] Citations
 **Key Results:** MMR retrieval · Top-5 chunks per query · Zero hallucinations · Mandatory [Document | Page] citations on every response · Multi-document querying
 
-[![View Repo](https://img.shields.io/badge/GitHub-rag--chatbot-181717?style=flat-square&logo=github)](https://github.com/Rajkumar2002-Rk/rag-chatbot)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-AWS%20EC2-brightgreen?style=flat-square&logo=amazonaws)](http://54.197.95.237:8501)  [![View Repo](https://img.shields.io/badge/GitHub-rag--chatbot-181717?style=flat-square&logo=github)](https://github.com/Rajkumar2002-Rk/rag-chatbot)
 
 ---
 
