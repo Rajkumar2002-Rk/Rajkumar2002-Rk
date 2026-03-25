@@ -1,19 +1,21 @@
 <div align="center">
 
-# Hi 👋 I'm Raj Kumar Nelluri
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e1a,100:3b82f6&height=120&section=header&animation=fadeIn" width="100%"/>
 
-### AI Engineer · Machine Learning Engineer · Data Engineer
+# Raj Kumar Nelluri
+### AI / ML Engineer · LLM Systems · Production Deployment
 
-<p>
-  B.Tech in Artificial Intelligence from Amrita Vishwa Vidyapeetham &nbsp;|&nbsp; MS Computer Science from Pace University, New York<br/>
-  I build production-ready AI systems — from Generative AI and RAG pipelines to scalable ML workflows<br/>
-  and cloud-native data engineering on AWS. Passionate about turning documents and raw data into intelligent, reliable AI products.
+<p align="center">
+  <b>B.Tech AI · Amrita Vishwa Vidyapeetham &nbsp;|&nbsp; MS Computer Science · Pace University, New York</b><br/>
+  I don't just build models — I ship AI systems that run in production on AWS.<br/>
+  From RAG pipelines and LLM agents to computer vision and MLOps — full stack, end to end.
 </p>
 
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-rajkumarai.dev-0a0e1a?style=for-the-badge)](https://rajkumarai.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raj-kumar-nelluri-351389393/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0a0e1a?style=for-the-badge&logo=githubpages&logoColor=white)](https://rajkumar2002-rk.github.io/Real_Portfolio/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajkumarn2002@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rajkumar2002-Rk)
+[![AWS Certified](https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://rajkumarai.dev)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Rajkumar2002-Rk&style=for-the-badge&color=3b82f6)
 
@@ -21,96 +23,140 @@
 
 ---
 
+<div align="center">
+
+### 🚀 Systems Live in Production Right Now
+
+| | Project | Live Demo | Stack |
+|---|---|---|---|
+| 🟣 | **AI Financial Research Agent** | [![Live](https://img.shields.io/badge/▶%20Live-fintel.rajkumarai.dev-brightgreen?style=flat-square)](https://fintel.rajkumarai.dev) | GPT-4o · FastAPI · AWS EC2 · Docker |
+| 🔵 | **Enterprise RAG Chatbot** | [![Live](https://img.shields.io/badge/▶%20Live-chatbot.rajkumarai.dev-brightgreen?style=flat-square)](https://chatbot.rajkumarai.dev) | LangChain · ChromaDB · AWS EC2 · Docker |
+
+</div>
+
+---
+
 ## 🧑‍💻 About Me
 
-I'm an AI and Machine Learning Engineer building **production-grade AI systems**, **Generative AI pipelines**, and **scalable data infrastructure** on AWS. My work spans the full AI stack — from RAG chatbots and vector databases to cloud-native ML pipelines and automated MLOps workflows.
+I'm an AI/ML Engineer who ships production AI — not just prototypes. My work spans the full stack: LLM agents, RAG pipelines, computer vision, and cloud-native MLOps on AWS.
 
-- 🤖 I build **Generative AI systems**: RAG pipelines, LangChain, vector databases, prompt engineering, OpenAI API integration
-- 🔭 I build **end-to-end ML pipelines**: data ingestion → feature engineering → model training → real-time inference → automated monitoring
-- ☁️ I design **cloud-native data systems** using AWS S3, Lambda, Kinesis, SageMaker, RDS, and EventBridge
-- 🧠 I apply **ML across domains**: fraud detection, churn prediction, demand forecasting, and computer vision
-- 📊 I implement **MLOps practices**: data drift detection, automated retraining, CloudWatch monitoring, SageMaker managed training jobs
-- 🎓 AWS Certified Cloud Practitioner · MS CS, Pace University, New York
+- 🤖 **LLM Engineering** — RAG pipelines, LangGraph agents, tool-calling, prompt engineering, OpenAI API
+- 🔭 **End-to-end ML** — data ingestion → feature engineering → training → real-time inference → monitoring
+- ☁️ **Cloud-native systems** — AWS EC2, S3, Lambda, Kinesis, SageMaker, RDS, EventBridge
+- 👁️ **Computer Vision** — YOLOv8 object detection, ResNet-50 classification, 50ms inference APIs
+- 📊 **MLOps** — data drift detection, automated retraining, MLflow, CloudWatch, GitHub Actions CI/CD
+- 🎓 **AWS Certified Cloud Practitioner** · MS CS, Pace University, New York
 
-> *"Good AI engineering is building systems that are accurate, reliable, and grounded in real data."*
-
----
-
-## 🚀 What I Build
-
-| Area | What I Do |
-|---|---|
-| **Generative AI** | RAG pipelines, LangChain chains, vector databases, prompt engineering, OpenAI API |
-| **ML Pipelines** | End-to-end pipelines from raw data to real-time inference endpoints |
-| **Data Engineering** | Batch and streaming ETL systems processing 500K+ records with schema validation |
-| **Cloud ML Systems** | AWS-native architectures: S3 → Lambda → Kinesis → SageMaker → RDS |
-| **MLOps & Monitoring** | Automated retraining triggers, data drift alerting, CloudWatch dashboards |
-| **Model Development** | XGBoost, TensorFlow, Scikit-learn across classification, regression, and forecasting tasks |
+> *"A model that doesn't reach production is a prototype, not a solution."*
 
 ---
 
-## 📊 Featured Projects
+## 📊 Results That Matter
 
-### 🟣 Enterprise RAG Chatbot ⭐ Latest
-> *Production-grade Retrieval-Augmented Generation pipeline with mandatory source citations*
+<div align="center">
 
-Built a full production RAG pipeline with two modes: query a pre-loaded document library, or upload any PDF and ask questions instantly. Upgraded from prototype to production: MMR retrieval for result diversity, metadata-injected context for traceable citations, session-isolated upload processing, centralized config management, Dockerized and deployed live on AWS EC2.
+| Metric | Result | Project |
+|---|---|---|
+| 🎯 Fraud Detection Accuracy | **96.7%** on 50k+ claims | Insurance Fraud Detection |
+| 📈 Churn Prediction F1 | **91% accuracy / 89% F1** | Customer Churn + MLOps |
+| 🔍 RAG Retrieval Accuracy | **87%** on benchmark queries | Enterprise RAG Chatbot |
+| 📉 Sales Forecast RMSE | **4.2%** — 18% better than baseline | Retail Sales Forecasting |
+| ⚡ Report Generation | **< 30 seconds** end-to-end | AI Financial Research Agent |
+| 🧠 Inference Latency | **50ms** real-time | Insurance Fraud Detection |
 
-**Stack:** `Python` `LangChain` `OpenAI API` `ChromaDB` `Streamlit` `PyPDF` `Docker` `AWS EC2`
-**Architecture:** PDF (Library or Upload) → PyPDF → Chunking (1000/200) → OpenAI Embeddings → ChromaDB → MMR Search (k=5, fetch_k=20) → Metadata Context → GPT-3.5-turbo → [SOURCE N: filename | Page] Citations
-**Key Results:** MMR retrieval · Top-5 chunks per query · Zero hallucinations · Mandatory source citations · Upload any PDF mode · Dockerized & deployed on AWS EC2 (24/7 live)
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-AWS%20EC2-brightgreen?style=flat-square&logo=amazonaws)](http://54.197.95.237:8501)  [![View Repo](https://img.shields.io/badge/GitHub-rag--chatbot-181717?style=flat-square&logo=github)](https://github.com/Rajkumar2002-Rk/rag-chatbot)
-
----
-
-### 🔴 Insurance Fraud Detection System
-> *Cloud-native, real-time fraud detection pipeline on AWS*
-
-Built a distributed 4-stage fraud detection pipeline that processes insurance claims from ingestion to inference. Achieved approximately 90% classification accuracy on 15K+ records using XGBoost with engineered features.
-
-**Stack:** `Python` `XGBoost` `Scikit-learn` `AWS S3` `Lambda` `Kinesis` `RDS` `SageMaker`
-**Architecture:** S3 Data Lake → Lambda ETL → Kinesis Stream → SageMaker Inference → RDS Reporting
+</div>
 
 ---
 
-### 🔵 Customer Churn Prediction — MLOps Pipeline
-> *End-to-end MLOps pipeline with NLP feature extraction and automated retraining*
-
-Built an MLOps pipeline predicting SaaS customer churn using NLP-extracted features from 7K+ support tickets. Integrated CloudWatch + EventBridge for automated model retraining on data drift. Achieved 0.67 recall on the minority class.
-
-**Stack:** `Python` `XGBoost` `AWS S3` `Lambda` `SageMaker` `Comprehend` `CloudWatch` `EventBridge`
-**Architecture:** S3 → Lambda ETL → Comprehend NLP → SageMaker Training → CloudWatch + EventBridge Auto-Retrain
+## 🚀 Featured Projects
 
 ---
 
-### 🟢 Retail Sales Forecasting on AWS
-> *Scalable batch ETL pipeline for time-series demand forecasting*
+### 🟣 AI Financial Research Agent — [Live Demo ↗](https://fintel.rajkumarai.dev) · [GitHub ↗](https://github.com/Rajkumar2002-Rk/financial-research-agent)
 
-Engineered a batch ETL pipeline processing 500K+ retail transactions with temporal feature extraction and lag-based predictors. Deployed as a SageMaker real-time inference endpoint serving live predictions.
+> *Autonomous GPT-4o agent that generates structured BUY/HOLD/SELL investment reports in under 30 seconds*
 
-**Stack:** `Python` `XGBoost` `Pandas` `NumPy` `AWS S3` `SageMaker`
-**Architecture:** Raw Transactions → Python ETL → S3 Data Lake → SageMaker Job → Real-Time Endpoint
+Most AI financial tools let the LLM decide whether to buy or sell. This system does not. The investment decision is made entirely by a **deterministic scoring engine** — GPT-4o only explains the decision in plain English. This eliminates hallucination from the most critical part of the pipeline.
+
+```
+User Request → FastAPI → LangGraph Agent → Market Data (Stooq) + Fundamentals (Alpha Vantage) + News (Tavily)
+     → Deterministic Scoring Engine (Technical + Fundamental + Sentiment)
+     → Conflict Detection → Confidence Model → BUY / HOLD / SELL
+     → GPT-4o Explanation → Redis Cache → JSON Response → Dark UI
+```
+
+**Key innovations:** Normalised scoring (missing data not penalised) · Conflict detection override · 5-factor confidence model · Portfolio ranking mode · Time-horizon weight profiles · Redis caching (10× API cost reduction)
+
+`Python` `FastAPI` `LangGraph` `GPT-4o` `Alpha Vantage` `Tavily` `Redis` `Docker` `AWS EC2`
 
 ---
 
-### 🟠 Crypto Price Forecasting — Flask REST API
-> *Multi-model ML system with live web dashboard*
+### 🔵 Enterprise RAG Chatbot — [Live Demo ↗](https://chatbot.rajkumarai.dev) · [GitHub ↗](https://github.com/Rajkumar2002-Rk/rag-chatbot)
 
-Benchmarked LSTM, CNN, and XGBoost on 7-day Bitcoin price forecasting. XGBoost achieved the best generalization on held-out test data (lowest MAE and RMSE). Deployed as a Flask REST API with a live web dashboard providing sub-second response latency.
+> *Production RAG pipeline — 87% retrieval accuracy, hallucination guardrails, live on AWS EC2*
 
-**Stack:** `Python` `XGBoost` `TensorFlow` `LSTM` `CNN` `Flask` `REST API`
-**Deployment:** Persistent REST endpoint with live dashboard
+Full production RAG system: MMR retrieval for result diversity, metadata-injected citations, session-isolated upload mode, structured JSON logging, and real-time streaming. Every response includes `[SOURCE N: filename | Page]` — zero hallucinations.
+
+```
+PDF (Library or Upload) → PyPDF → Chunking (1000/200 overlap)
+     → OpenAI Embeddings (text-embedding-3-small) → ChromaDB
+     → MMR Retrieval (fetch_k=20, top-5) → Hallucination Guardrail
+     → Strict Prompt + Citations → GPT-3.5-turbo → Streamlit Streaming UI
+```
+
+**Key innovations:** Similarity threshold guardrail · MMR diversity retrieval · Metadata citation injection · Upload-any-PDF mode · Session-isolated temp vectorstore · Structured query logging
+
+`Python` `LangChain` `OpenAI API` `ChromaDB` `Streamlit` `Docker` `AWS EC2` `PyPDF`
 
 ---
 
-### 🟣 3D Face Generation with Neural Radiance Fields
-> *Deformable NeRF for photorealistic 3D face reconstruction*
+### 🔴 Insurance Fraud Detection — [GitHub ↗](https://github.com/Rajkumar2002-Rk)
 
-Implemented Deformable NeRF for photorealistic 3D face reconstruction from monocular video. Reduced GPU memory consumption by over 30% through optimized batch rendering. Evaluated with PSNR across multiple synthesized viewpoints.
+> *Dual-model CV pipeline — 96.7% accuracy on 50k+ insurance claims at 50ms inference*
 
-**Stack:** `Python` `JAX` `TensorFlow` `OpenCV` `COLMAP` `NeRF`
-**Result:** 30%+ GPU memory reduction · PSNR-evaluated multi-view synthesis
+YOLOv8 localises vehicle damage in real time. ResNet-50 classifies severity and flags fraud indicators. Served via FastAPI at 50ms average inference latency on a cloud-native AWS pipeline.
+
+`YOLOv8` `ResNet-50` `PyTorch` `OpenCV` `FastAPI` `AWS S3` `Lambda` `Kinesis` `SageMaker` `RDS`
+
+---
+
+### 🟢 Retail Sales Forecasting — [GitHub ↗](https://github.com/Rajkumar2002-Rk/aws-sales-forecasting)
+
+> *LSTM + Prophet ensemble — 4.2% RMSE, 18% better than single-model baselines on AWS SageMaker*
+
+Engineered a batch ETL pipeline processing 500K+ retail transactions. LSTM captures complex temporal patterns; Prophet handles seasonality and holidays. Deployed as a SageMaker real-time endpoint with automated weekly retraining from S3.
+
+`LSTM` `Prophet` `PyTorch` `SageMaker` `S3` `Pandas` `NumPy`
+
+---
+
+### 🟡 Customer Churn Prediction — [GitHub ↗](https://github.com/Rajkumar2002-Rk/Customer_Chrun_Prediction)
+
+> *MLOps pipeline — 91% accuracy, SHAP explainability, automated CI/CD retraining*
+
+XGBoost classifier with 21 engineered features including NLP-extracted signals from support tickets. CloudWatch + EventBridge triggers automated model retraining on data drift. MLflow tracks all experiments.
+
+`XGBoost` `SHAP` `MLflow` `AWS Comprehend` `CloudWatch` `EventBridge` `Docker` `GitHub Actions`
+
+---
+
+### 🟠 Crypto Price Forecasting — [GitHub ↗](https://github.com/Rajkumar2002-Rk)
+
+> *Multi-model ML system — LSTM vs CNN vs XGBoost benchmarked on 7-day Bitcoin forecasting*
+
+Benchmarked three architectures on held-out test data. XGBoost achieved best generalisation (lowest MAE and RMSE). Deployed as a Flask REST API with a live web dashboard at sub-second latency.
+
+`XGBoost` `TensorFlow` `LSTM` `CNN` `Flask` `REST API` `Python`
+
+---
+
+### 🔮 3D Face Generation with NeRF — [GitHub ↗](https://github.com/Rajkumar2002-Rk)
+
+> *Deformable NeRF for photorealistic 3D face reconstruction — 30%+ GPU memory reduction*
+
+Implemented Deformable NeRF for photorealistic 3D reconstruction from monocular video. Reduced GPU memory by 30%+ through optimised batch rendering. Evaluated with PSNR across multiple synthesised viewpoints.
+
+`JAX` `TensorFlow` `OpenCV` `COLMAP` `NeRF` `Python`
 
 ---
 
@@ -120,43 +166,42 @@ Implemented Deformable NeRF for photorealistic 3D face reconstruction from monoc
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
-**Generative AI**
+**Generative AI & LLM**
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-`RAG Pipelines` `Vector Databases` `Prompt Engineering` `Embeddings` `Semantic Search`
+`LangGraph` `RAG Pipelines` `Vector Databases` `Prompt Engineering` `Embeddings` `Tool Calling`
 
-**Machine Learning**
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logoColor=white)
+**Machine Learning & CV**
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logoColor=white)
+`YOLOv8` `ResNet-50` `LSTM` `Prophet` `SHAP`
 
-**Data Engineering**
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-`ETL Pipelines` `Batch Processing` `Stream Processing` `Schema Validation` `Data Quality`
-
-**Cloud & MLOps**
+**Cloud & Infrastructure**
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-`S3` `SageMaker` `Lambda` `Kinesis` `RDS` `CloudWatch` `EventBridge` `Glue` `EC2` `IAM`
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+`EC2` `S3` `SageMaker` `Lambda` `Kinesis` `RDS` `CloudWatch` `EventBridge`
 
-**Tools**
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+**MLOps & Tools**
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+`Weights & Biases` `Jupyter` `Linux` `Bash`
 
 ---
 
-## 🌱 Currently Exploring
+## 🌱 Currently Building
 
-- **Generative AI Projects** — building AI Resume Analyzer, Semantic Search Engine, and AI Job Search Agent
-- **Advanced RAG** — re-ranking, RAGAS evaluation framework, multi-modal RAG with images and tables
-- **Advanced MLOps** — model versioning, experiment tracking, and CI/CD for ML systems
-- **Large-Scale Data Pipelines** — Apache Spark, AWS Glue, and real-time streaming architectures
-- **Cloud-Scale Vector Search** — Pinecone, Weaviate for production-grade vector databases
+- 🔧 **AI Resume Analyzer** — LLM-powered resume scoring and feedback system
+- 🔍 **Semantic Search Engine** — production vector search with re-ranking and RAGAS evaluation
+- 🤖 **Advanced RAG** — multi-modal RAG with images and tables, hybrid retrieval
+- ⚙️ **Advanced MLOps** — model versioning, experiment tracking, CI/CD for ML
+- 📡 **Large-Scale Pipelines** — Apache Spark, AWS Glue, real-time streaming architectures
 
 ---
 
@@ -176,19 +221,25 @@ Implemented Deformable NeRF for photorealistic 3D face reconstruction from monoc
 
 ---
 
-## 🔗 Connect with Me
+## 🔗 Let's Connect
 
-I'm actively seeking **AI Engineer**, **Applied AI Engineer**, **Machine Learning Engineer**, and **Data Engineer** roles at US tech companies and startups.
+I'm actively seeking **AI/ML Engineer**, **LLM Engineer**, and **Applied AI** roles at US tech companies and startups.
+
+<div align="center">
 
 | | |
 |---|---|
+| 🌐 **Portfolio** | [rajkumarai.dev](https://rajkumarai.dev) |
 | 💼 **LinkedIn** | [linkedin.com/in/raj-kumar-nelluri](https://www.linkedin.com/in/raj-kumar-nelluri-351389393/) |
-| 🌐 **Portfolio** | [rajkumar2002-rk.github.io/Real_Portfolio](https://rajkumar2002-rk.github.io/Real_Portfolio/) |
 | 📧 **Email** | [rajkumarn2002@gmail.com](mailto:rajkumarn2002@gmail.com) |
 | 🐙 **GitHub** | [github.com/Rajkumar2002-Rk](https://github.com/Rajkumar2002-Rk) |
+
+</div>
 
 ---
 
 <div align="center">
-  <sub>Open to full-time roles · Available immediately · US (OPT/STEM OPT)</sub>
+  <sub>✅ Available immediately &nbsp;·&nbsp; 🇺🇸 US-based (OPT / STEM OPT) &nbsp;·&nbsp; Open to remote & on-site roles</sub>
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:0a0e1a&height=80&section=footer" width="100%"/>
