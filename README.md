@@ -15,7 +15,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raj-kumar-nelluri-351389393/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajkumarn2002@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rajkumar2002-Rk)
-[![AWS Certified](https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://rajkumarai.dev)
+[![AWS Certified](https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://rajkumarai.dev/Raj_Kumar_Nelluri_AI:ML_Engineer.pdf)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Rajkumar2002-Rk&style=for-the-badge&color=3b82f6)
 
@@ -57,12 +57,12 @@ I'm an AI/ML Engineer who ships production AI — not just prototypes. My work s
 
 | Metric | Result | Project |
 |---|---|---|
-| 🎯 Fraud Detection Accuracy | **96.7%** on 50k+ claims | Insurance Fraud Detection |
-| 📈 Churn Prediction F1 | **91% accuracy / 89% F1** | Customer Churn + MLOps |
-| 🔍 RAG Retrieval Accuracy | **87%** on benchmark queries | Enterprise RAG Chatbot |
-| 📉 Sales Forecast RMSE | **4.2%** — 18% better than baseline | Retail Sales Forecasting |
 | ⚡ Report Generation | **< 30 seconds** end-to-end | AI Financial Research Agent |
+| 🔍 RAG Retrieval Accuracy | **87%** on benchmark queries | Enterprise RAG Chatbot |
+| 🎯 Fraud Detection Accuracy | **96.7%** on 50k+ claims | Insurance Fraud Detection |
 | 🧠 Inference Latency | **50ms** real-time | Insurance Fraud Detection |
+| 📈 Churn Prediction F1 | **91% accuracy / 89% F1** | Customer Churn + MLOps |
+| 📉 Sales Forecast RMSE | **4.2%** — 18% better than baseline | Retail Sales Forecasting |
 
 </div>
 
@@ -72,7 +72,7 @@ I'm an AI/ML Engineer who ships production AI — not just prototypes. My work s
 
 ---
 
-### 🟣 AI Financial Research Agent — [Live Demo ↗](https://fintel.rajkumarai.dev) · [GitHub ↗](https://github.com/Rajkumar2002-Rk/financial-research-agent)
+### 🟣 AI Financial Research Agent — [Live Demo ↗](https://fintel.rajkumarai.dev) · [GitHub ↗](https://github.com/Rajkumar2002-Rk/financial-research-agent) · [Portfolio ↗](https://rajkumarai.dev/#projects)
 
 > *Autonomous GPT-4o agent that generates structured BUY/HOLD/SELL investment reports in under 30 seconds*
 
@@ -91,7 +91,7 @@ User Request → FastAPI → LangGraph Agent → Market Data (Stooq) + Fundament
 
 ---
 
-### 🔵 Enterprise RAG Chatbot — [Live Demo ↗](https://chatbot.rajkumarai.dev) · [GitHub ↗](https://github.com/Rajkumar2002-Rk/rag-chatbot)
+### 🔵 Enterprise RAG Chatbot — [Live Demo ↗](https://chatbot.rajkumarai.dev) · [GitHub ↗](https://github.com/Rajkumar2002-Rk/rag-chatbot) · [Portfolio ↗](https://rajkumarai.dev/#projects)
 
 > *Production RAG pipeline — 87% retrieval accuracy, hallucination guardrails, live on AWS EC2*
 
@@ -110,17 +110,22 @@ PDF (Library or Upload) → PyPDF → Chunking (1000/200 overlap)
 
 ---
 
-### 🔴 Insurance Fraud Detection — [GitHub ↗](https://github.com/Rajkumar2002-Rk)
+### 🔴 Insurance Fraud Detection — [GitHub ↗](https://github.com/Rajkumar2002-Rk) · [Portfolio ↗](https://rajkumarai.dev/#projects)
 
 > *Dual-model CV pipeline — 96.7% accuracy on 50k+ insurance claims at 50ms inference*
 
 YOLOv8 localises vehicle damage in real time. ResNet-50 classifies severity and flags fraud indicators. Served via FastAPI at 50ms average inference latency on a cloud-native AWS pipeline.
 
+```
+Claim Image → YOLOv8 (damage localisation) → ResNet-50 (severity classification)
+     → FastAPI Inference API (50ms) → AWS S3 + Lambda + Kinesis → RDS Reporting
+```
+
 `YOLOv8` `ResNet-50` `PyTorch` `OpenCV` `FastAPI` `AWS S3` `Lambda` `Kinesis` `SageMaker` `RDS`
 
 ---
 
-### 🟢 Retail Sales Forecasting — [GitHub ↗](https://github.com/Rajkumar2002-Rk/aws-sales-forecasting)
+### 🟢 Retail Sales Forecasting — [GitHub ↗](https://github.com/Rajkumar2002-Rk/aws-sales-forecasting) · [Portfolio ↗](https://rajkumarai.dev/#projects)
 
 > *LSTM + Prophet ensemble — 4.2% RMSE, 18% better than single-model baselines on AWS SageMaker*
 
@@ -130,33 +135,13 @@ Engineered a batch ETL pipeline processing 500K+ retail transactions. LSTM captu
 
 ---
 
-### 🟡 Customer Churn Prediction — [GitHub ↗](https://github.com/Rajkumar2002-Rk/Customer_Chrun_Prediction)
+### 🟡 Customer Churn Prediction — [GitHub ↗](https://github.com/Rajkumar2002-Rk/Customer_Chrun_Prediction) · [Portfolio ↗](https://rajkumarai.dev/#projects)
 
 > *MLOps pipeline — 91% accuracy, SHAP explainability, automated CI/CD retraining*
 
 XGBoost classifier with 21 engineered features including NLP-extracted signals from support tickets. CloudWatch + EventBridge triggers automated model retraining on data drift. MLflow tracks all experiments.
 
 `XGBoost` `SHAP` `MLflow` `AWS Comprehend` `CloudWatch` `EventBridge` `Docker` `GitHub Actions`
-
----
-
-### 🟠 Crypto Price Forecasting — [GitHub ↗](https://github.com/Rajkumar2002-Rk)
-
-> *Multi-model ML system — LSTM vs CNN vs XGBoost benchmarked on 7-day Bitcoin forecasting*
-
-Benchmarked three architectures on held-out test data. XGBoost achieved best generalisation (lowest MAE and RMSE). Deployed as a Flask REST API with a live web dashboard at sub-second latency.
-
-`XGBoost` `TensorFlow` `LSTM` `CNN` `Flask` `REST API` `Python`
-
----
-
-### 🔮 3D Face Generation with NeRF — [GitHub ↗](https://github.com/Rajkumar2002-Rk)
-
-> *Deformable NeRF for photorealistic 3D face reconstruction — 30%+ GPU memory reduction*
-
-Implemented Deformable NeRF for photorealistic 3D reconstruction from monocular video. Reduced GPU memory by 30%+ through optimised batch rendering. Evaluated with PSNR across multiple synthesised viewpoints.
-
-`JAX` `TensorFlow` `OpenCV` `COLMAP` `NeRF` `Python`
 
 ---
 
