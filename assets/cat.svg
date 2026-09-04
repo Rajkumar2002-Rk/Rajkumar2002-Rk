@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 120" width="280" height="120"
+     role="img" aria-label="A small ginger cat asleep on a server rack, breathing slowly, with blinking status LEDs and z-z-z floating upward.">
+  <title>build's green, cat's asleep</title>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    @keyframes breathe { 0%,100% { transform: scale(1,1); } 50% { transform: scale(1.02,1.06); } }
+    @keyframes earflick { 0%,88%,100% { transform: rotate(0deg); } 92% { transform: rotate(-15deg); } 96% { transform: rotate(5deg); } }
+    @keyframes tailcurl { 0%,100% { transform: rotate(-4deg); } 50% { transform: rotate(7deg); } }
+    @keyframes drift { 0% { opacity: 0; transform: translate(0,4px) scale(.7); }
+                       25% { opacity: .95; }
+                       100% { opacity: 0; transform: translate(13px,-22px) scale(1.15); } }
+    @keyframes led1 { 0%,44% { fill:#14532d; } 50%,94% { fill:#22c55e; } }
+    @keyframes led2 { 0%,64% { fill:#14532d; } 70%,98% { fill:#22c55e; } }
+    @keyframes led3 { 0%,24% { fill:#1e3a5f; } 30%,80% { fill:#3b82f6; } }
+
+    .body { animation: breathe 3.6s ease-in-out infinite; transform-origin: 150px 86px; }
+    .ear  { animation: earflick 7.3s ease-in-out infinite; transform-origin: 106px 50px; }
+    .tail { animation: tailcurl 4.1s ease-in-out infinite; transform-origin: 196px 78px; }
+    .z    { animation: drift 3.6s ease-out infinite; }
+    .z2   { animation-delay: 1.2s; } .z3 { animation-delay: 2.4s; }
+    .l1 { animation: led1 2.2s steps(1) infinite; }
+    .l2 { animation: led2 3.1s steps(1) infinite; }
+    .l3 { animation: led3 1.7s steps(1) infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .body,.ear,.tail,.z,.l1,.l2,.l3 { animation: none; }
+    }
+  </style>
+
+  <!-- server plinth -->
+  <rect x="14" y="86" width="252" height="26" rx="7" fill="#0f172a" stroke="#1e293b"/>
+  <g>
+    <circle class="l1" cx="32" cy="99" r="3.4" fill="#14532d"/>
+    <circle class="l2" cx="44" cy="99" r="3.4" fill="#14532d"/>
+    <circle class="l3" cx="56" cy="99" r="3.4" fill="#1e3a5f"/>
+  </g>
+  <g stroke="#1e293b" stroke-width="1.5" stroke-linecap="round">
+    <line x1="216" y1="94" x2="252" y2="94"/><line x1="216" y1="99" x2="252" y2="99"/>
+    <line x1="216" y1="104" x2="244" y2="104"/>
+  </g>
+
+  <!-- sleeping cat -->
+  <g class="body">
+    <path class="tail" d="M196 78 C 218 76, 226 60, 214 52 C 208 48, 200 52, 202 60"
+          fill="none" stroke="#fb923c" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="150" cy="70" rx="52" ry="17" fill="#fb923c"/>
+    <ellipse cx="158" cy="74" rx="34" ry="10" fill="#fdba74"/>
+    <g class="ear"><path d="M99 52 L104 38 L113 50 Z" fill="#fb923c"/></g>
+    <path d="M126 50 L122 37 L114 49 Z" fill="#fb923c"/>
+    <circle cx="112" cy="62" r="19" fill="#fb923c"/>
+    <ellipse cx="110" cy="68" rx="10" ry="7" fill="#fdba74"/>
+    <path d="M100 60 q 5 4 10 0" stroke="#7c2d12" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M116 60 q 5 4 10 0" stroke="#7c2d12" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M108 67 L114 67 L111 70 Z" fill="#ea580c"/>
+    <g stroke="#fed7aa" stroke-width="1.2" stroke-linecap="round" opacity="0.8">
+      <line x1="98" y1="67" x2="84" y2="64"/><line x1="98" y1="70" x2="84" y2="72"/>
+      <line x1="124" y1="67" x2="138" y2="64"/><line x1="124" y1="70" x2="138" y2="72"/>
+    </g>
+  </g>
+
+  <!-- zzz -->
+  <g fill="#64748b" font-size="13" font-weight="700">
+    <text class="z"    x="138" y="40">z</text>
+    <text class="z z2" x="146" y="32">z</text>
+    <text class="z z3" x="154" y="24">z</text>
+  </g>
+</svg>

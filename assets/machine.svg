@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300"
+     role="img" aria-label="An animated assembly line: ideas travel a conveyor belt through three deterministic gates - Integrity, Security and QA - and come out certified and live. A cat sits on the output tray watching.">
+  <title>The deterministic pipeline — rules decide, the model explains</title>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <linearGradient id="tok" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="tokOk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0 L0 0 0 30" fill="none" stroke="#1e293b" stroke-width="1" opacity="0.55"/>
+    </pattern>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22c55e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    .lbl   { font-size: 11px; letter-spacing: 1.6px; fill: #64748b; }
+    .lblOn { font-size: 11px; letter-spacing: 1.6px; fill: #93c5fd; }
+    .kicker{ font-size: 12px; letter-spacing: 4px; fill: #475569; }
+    .stamp { font-size: 10px; letter-spacing: 1px; fill: #22c55e; font-weight: 700; }
+    .live  { font-size: 15px; letter-spacing: 2.5px; fill: #22c55e; font-weight: 700; }
+
+    @keyframes belt   { to { stroke-dashoffset: -48; } }
+    @keyframes spin   { to { transform: rotate(360deg); } }
+    @keyframes spinB  { to { transform: rotate(-360deg); } }
+    @keyframes travel { from { transform: translateX(0); } to { transform: translateX(712px); } }
+    @keyframes press  { 0%,8% { transform: translateY(0); }
+                        14%   { transform: translateY(20px); }
+                        22%   { transform: translateY(0); }
+                        100%  { transform: translateY(0); } }
+    @keyframes flash  { 0%,9% { opacity: 0; transform: translateY(4px); }
+                        16%   { opacity: 1; transform: translateY(-3px); }
+                        34%   { opacity: 0; transform: translateY(-9px); }
+                        100%  { opacity: 0; } }
+    @keyframes lampOn { 0%,10% { fill: #1e293b; } 16%,30% { fill: #22c55e; } 40%,100% { fill: #1e293b; } }
+    @keyframes pulse  { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+    @keyframes swish  { 0%,100% { transform: rotate(-11deg); } 50% { transform: rotate(15deg); } }
+    @keyframes blink  { 0%,92%,100% { transform: scaleY(1); } 95% { transform: scaleY(0.08); } }
+    @keyframes twitch { 0%,86%,100% { transform: rotate(0deg); } 90% { transform: rotate(-13deg); } 94% { transform: rotate(4deg); } }
+    @keyframes bob    { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-1.6px); } }
+
+    .belt   { animation: belt 1.15s linear infinite; }
+    .gear   { animation: spin 5s linear infinite; }
+    .gearB  { animation: spinB 5s linear infinite; }
+    .roller { animation: spin 1.6s linear infinite; }
+    .tokens g { animation: travel 9s linear infinite; }
+    .tokens g.t2 { animation-delay: -2.25s; }
+    .tokens g.t3 { animation-delay: -4.5s; }
+    .tokens g.t4 { animation-delay: -6.75s; }
+    .ram    { animation: press 2.25s ease-in-out infinite; }
+    .ok     { animation: flash 2.25s ease-out infinite; }
+    .lamp   { animation: lampOn 2.25s linear infinite; }
+    .ram.g2, .ok.g2, .lamp.g2 { animation-delay: -.06s; }
+    .ram.g3, .ok.g3, .lamp.g3 { animation-delay: -.12s; }
+    .halo   { animation: pulse 2.4s ease-in-out infinite; }
+    .tail   { animation: swish 2.3s ease-in-out infinite; transform-origin: 790px 120px; }
+    .eyes   { animation: blink 4.6s ease-in-out infinite; transform-origin: 812px 80px; }
+    .earL   { animation: twitch 6.1s ease-in-out infinite; transform-origin: 806px 71px; }
+    .cat    { animation: bob 3.1s ease-in-out infinite; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .belt,.gear,.gearB,.roller,.tokens g,.ram,.ok,.lamp,.halo,.tail,.eyes,.earL,.cat { animation: none; }
+    }
+  </style>
+
+  <rect width="900" height="300" rx="16" fill="url(#panel)"/>
+  <rect width="900" height="300" rx="16" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="899" height="299" rx="16" fill="none" stroke="#1e293b"/>
+
+  <text class="kicker" x="34" y="42">RULES DECIDE &#183; THE MODEL EXPLAINS</text>
+  <line x1="34" y1="56" x2="150" y2="56" stroke="#3b82f6" stroke-width="2"/>
+
+  <!-- hopper -->
+  <path d="M46 104 L118 104 L100 150 L64 150 Z" fill="none" stroke="#334155" stroke-width="2"/>
+  <text class="lbl" x="42" y="96">IDEA</text>
+  <line x1="82" y1="150" x2="82" y2="196" stroke="#334155" stroke-width="2" stroke-dasharray="3 5"/>
+
+  <!-- conveyor -->
+  <rect x="52" y="210" width="742" height="15" rx="7.5" fill="#131c2e" stroke="#1e293b"/>
+  <line class="belt" x1="60" y1="217.5" x2="788" y2="217.5" stroke="#3b82f6" stroke-width="2.5"
+        stroke-dasharray="11 13" opacity="0.75"/>
+  <g stroke="#334155" stroke-width="2" fill="#0f172a">
+    <g><circle cx="96"  cy="217" r="11"/><line class="roller" x1="96"  y1="208" x2="96"  y2="226" style="transform-origin:96px 217px"/></g>
+    <g><circle cx="330" cy="217" r="11"/><line class="roller" x1="330" y1="208" x2="330" y2="226" style="transform-origin:330px 217px"/></g>
+    <g><circle cx="540" cy="217" r="11"/><line class="roller" x1="540" y1="208" x2="540" y2="226" style="transform-origin:540px 217px"/></g>
+    <g><circle cx="750" cy="217" r="11"/><line class="roller" x1="750" y1="208" x2="750" y2="226" style="transform-origin:750px 217px"/></g>
+  </g>
+
+  <!-- gate stations -->
+  <g id="gates">
+    <!-- gate 1 : INTEGRITY -->
+    <g>
+      <rect x="218" y="120" width="104" height="82" rx="9" fill="#0b1220" stroke="#334155"/>
+      <g class="gear" style="transform-origin:270px 108px">
+        <circle cx="270" cy="108" r="15" fill="#0f172a" stroke="#3b82f6" stroke-width="2.5"/>
+        <g stroke="#3b82f6" stroke-width="3" stroke-linecap="round">
+          <line x1="270" y1="89"  x2="270" y2="96"/><line x1="270" y1="120" x2="270" y2="127"/>
+          <line x1="251" y1="108" x2="258" y2="108"/><line x1="282" y1="108" x2="289" y2="108"/>
+          <line x1="257" y1="95"  x2="262" y2="100"/><line x1="278" y1="116" x2="283" y2="121"/>
+          <line x1="283" y1="95"  x2="278" y2="100"/><line x1="262" y1="116" x2="257" y2="121"/>
+        </g>
+        <circle cx="270" cy="108" r="4" fill="#3b82f6"/>
+      </g>
+      <rect class="ram" x="263" y="134" width="14" height="34" rx="3" fill="#3b82f6"/>
+      <rect class="ram" x="252" y="166" width="36" height="9" rx="2" fill="#60a5fa"/>
+      <circle class="lamp" cx="308" cy="132" r="4" fill="#1e293b"/>
+      <text class="ok stamp" x="248" y="118">PASS &#10003;</text>
+      <text class="lbl" x="224" y="250">INTEGRITY</text>
+      <text class="lbl" x="232" y="266" style="font-size:9px;fill:#475569">56 GATES</text>
+    </g>
+    <!-- gate 2 : SECURITY -->
+    <g>
+      <rect x="398" y="120" width="104" height="82" rx="9" fill="#0b1220" stroke="#334155"/>
+      <g class="gearB" style="transform-origin:450px 108px">
+        <circle cx="450" cy="108" r="15" fill="#0f172a" stroke="#3b82f6" stroke-width="2.5"/>
+        <g stroke="#3b82f6" stroke-width="3" stroke-linecap="round">
+          <line x1="450" y1="89"  x2="450" y2="96"/><line x1="450" y1="120" x2="450" y2="127"/>
+          <line x1="431" y1="108" x2="438" y2="108"/><line x1="462" y1="108" x2="469" y2="108"/>
+          <line x1="437" y1="95"  x2="442" y2="100"/><line x1="458" y1="116" x2="463" y2="121"/>
+          <line x1="463" y1="95"  x2="458" y2="100"/><line x1="442" y1="116" x2="437" y2="121"/>
+        </g>
+        <circle cx="450" cy="108" r="4" fill="#3b82f6"/>
+      </g>
+      <rect class="ram g2" x="443" y="134" width="14" height="34" rx="3" fill="#3b82f6"/>
+      <rect class="ram g2" x="432" y="166" width="36" height="9" rx="2" fill="#60a5fa"/>
+      <circle class="lamp g2" cx="488" cy="132" r="4" fill="#1e293b"/>
+      <text class="ok g2 stamp" x="428" y="118">PASS &#10003;</text>
+      <text class="lbl" x="406" y="250">SECURITY</text>
+      <text class="lbl" x="404" y="266" style="font-size:9px;fill:#475569">OPUS CERT</text>
+    </g>
+    <!-- gate 3 : QA -->
+    <g>
+      <rect x="578" y="120" width="104" height="82" rx="9" fill="#0b1220" stroke="#334155"/>
+      <g class="gear" style="transform-origin:630px 108px">
+        <circle cx="630" cy="108" r="15" fill="#0f172a" stroke="#3b82f6" stroke-width="2.5"/>
+        <g stroke="#3b82f6" stroke-width="3" stroke-linecap="round">
+          <line x1="630" y1="89"  x2="630" y2="96"/><line x1="630" y1="120" x2="630" y2="127"/>
+          <line x1="611" y1="108" x2="618" y2="108"/><line x1="642" y1="108" x2="649" y2="108"/>
+          <line x1="617" y1="95"  x2="622" y2="100"/><line x1="638" y1="116" x2="643" y2="121"/>
+          <line x1="643" y1="95"  x2="638" y2="100"/><line x1="622" y1="116" x2="617" y2="121"/>
+        </g>
+        <circle cx="630" cy="108" r="4" fill="#3b82f6"/>
+      </g>
+      <rect class="ram g3" x="623" y="134" width="14" height="34" rx="3" fill="#3b82f6"/>
+      <rect class="ram g3" x="612" y="166" width="36" height="9" rx="2" fill="#60a5fa"/>
+      <circle class="lamp g3" cx="668" cy="132" r="4" fill="#1e293b"/>
+      <text class="ok g3 stamp" x="608" y="118">PASS &#10003;</text>
+      <text class="lbl" x="608" y="250">QA</text>
+      <text class="lbl" x="586" y="266" style="font-size:9px;fill:#475569">BUILD + TESTS</text>
+    </g>
+  </g>
+
+  <!-- travelling work items -->
+  <g class="tokens">
+    <g><rect x="70" y="192" width="18" height="18" rx="4" fill="url(#tok)"/></g>
+    <g class="t2"><rect x="70" y="192" width="18" height="18" rx="4" fill="url(#tok)"/></g>
+    <g class="t3"><rect x="70" y="192" width="18" height="18" rx="4" fill="url(#tok)"/></g>
+    <g class="t4"><rect x="70" y="192" width="18" height="18" rx="4" fill="url(#tok)"/></g>
+  </g>
+
+  <!-- output -->
+  <circle class="halo" cx="812" cy="200" r="46" fill="url(#glow)"/>
+  <rect x="782" y="208" width="62" height="15" rx="7.5" fill="#0b1220" stroke="#22c55e" stroke-width="1.5"/>
+  <rect x="795" y="192" width="18" height="18" rx="4" fill="url(#tokOk)"/>
+  <text class="live" x="782" y="250">LIVE</text>
+  <text class="lbl" x="776" y="266" style="font-size:9px;fill:#475569">CERTIFIED</text>
+
+  <!-- cat, sitting on the output tray, watching deploys land -->
+  <g class="cat">
+    <path class="tail" d="M790 120 C 764 118, 754 136, 762 152 C 766 160, 776 160, 778 152"
+          fill="none" stroke="#fb923c" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="812" cy="106" rx="21" ry="17" fill="#fb923c"/>
+    <ellipse cx="812" cy="112" rx="11" ry="9" fill="#fed7aa"/>
+    <g class="earL"><path d="M799 72 L803 58 L811 70 Z" fill="#fb923c"/></g>
+    <path d="M825 72 L821 58 L813 70 Z" fill="#fb923c"/>
+    <circle cx="812" cy="82" r="16" fill="#fb923c"/>
+    <path d="M801 74 q 5 -4 10 -1" stroke="#ea580c" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <g class="eyes">
+      <ellipse cx="806" cy="81" rx="2.6" ry="3.4" fill="#0a0e1a"/>
+      <ellipse cx="818" cy="81" rx="2.6" ry="3.4" fill="#0a0e1a"/>
+    </g>
+    <path d="M810 88 L814 88 L812 91 Z" fill="#ea580c"/>
+    <g stroke="#fed7aa" stroke-width="1.2" stroke-linecap="round" opacity="0.85">
+      <line x1="795" y1="86" x2="783" y2="83"/><line x1="795" y1="89" x2="783" y2="90"/>
+      <line x1="829" y1="86" x2="841" y2="83"/><line x1="829" y1="89" x2="841" y2="90"/>
+    </g>
+  </g>
+</svg>
