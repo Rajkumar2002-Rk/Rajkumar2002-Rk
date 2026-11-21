@@ -8,7 +8,7 @@
 
 <b>B.Tech Artificial Intelligence</b> — Amrita Vishwa Vidyapeetham &nbsp;·&nbsp; <b>MS Computer Science</b> — Pace University, New York
 
-[![Typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=800&color=3B82F6&center=true&vCenter=true&width=820&height=46&lines=Rules+decide.+The+model+explains.;~56+deterministic+gates+between+codegen+and+deploy;5+production+systems+live+on+AWS+right+now;The+LLM+is+never+the+single+point+of+failure)](https://rajkumarai.dev)
+[![Typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=800&color=3B82F6&center=true&vCenter=true&width=820&height=46&lines=Rules+decide.+The+model+explains.;~56+deterministic+gates+between+codegen+and+deploy;The+LLM+is+never+the+single+point+of+failure)](https://rajkumarai.dev)
 
 ## *I build AI systems where the model is never the single point of failure.*
 
@@ -22,7 +22,7 @@ Rules decide. The model explains. That is the difference between a demo and some
 [![Portfolio](https://img.shields.io/badge/Portfolio-rajkumarai.dev-0a0e1a?style=for-the-badge&logo=vercel&logoColor=white)](https://rajkumarai.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raj-kumar-nelluri-351389393/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajkumarn2002@gmail.com)
-[![AWS Certified](https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://rajkumarai.dev/Raj_Kumar_Nelluri_AI:ML_Engineer.pdf)
+[![AWS Certified](https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://rajkumarai.dev/Raj.pdf)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Rajkumar2002-Rk&style=for-the-badge&color=3b82f6&label=PROFILE+VIEWS)
 
@@ -32,17 +32,17 @@ Rules decide. The model explains. That is the difference between a demo and some
 
 <div align="center">
 
-## Systems Running In Production
+## Systems I've Built
 
-| | System | What It Does | Live |
-|:--:|:--|:--|:--:|
-| 🧠 | **[ai-org](https://github.com/Rajkumar2002-Rk/ai-org)** | Autonomous multi-agent org that ships a security-certified full-stack app from one sentence | `self-hosted` |
-| 📈 | **[Fintel](https://github.com/Rajkumar2002-Rk/financial-research-agent)** | 9-node LangGraph agent → deterministic BUY/HOLD/SELL in under 30s | [![Live](https://img.shields.io/badge/▶-fintel.rajkumarai.dev-22c55e?style=flat-square)](https://fintel.rajkumarai.dev) |
-| 🎬 | **[CineNeuro](https://github.com/Rajkumar2002-Rk/CineNeuro)** | Predicts a human audience's brain response to a trailer before anyone watches it | [![Live](https://img.shields.io/badge/▶-cineneuro.rajkumarai.dev-22c55e?style=flat-square)](https://cineneuro.rajkumarai.dev) |
-| 🏥 | **[MedEval](https://github.com/Rajkumar2002-Rk/MedEval)** | ER triage assistant where 68 clinical rules — not the LLM — assign urgency | [![Live](https://img.shields.io/badge/▶-medeval.rajkumarai.dev-22c55e?style=flat-square)](https://medeval.rajkumarai.dev) |
-| 📚 | **[RAG Chatbot](https://github.com/Rajkumar2002-Rk/rag-chatbot)** | Citation-grounded document QA that refuses to answer when context is thin | [![Live](https://img.shields.io/badge/▶-chatbot.rajkumarai.dev-22c55e?style=flat-square)](https://chatbot.rajkumarai.dev) |
+| | System | What It Does |
+|:--:|:--|:--|
+| 🧠 | **[ai-org](https://github.com/Rajkumar2002-Rk/ai-org)** | Autonomous multi-agent org that ships a security-certified full-stack app from one sentence |
+| 📈 | **[Fintel](https://github.com/Rajkumar2002-Rk/financial-research-agent)** | 9-node LangGraph agent → deterministic BUY/HOLD/SELL in under 30s |
+| 🎬 | **[CineNeuro](https://github.com/Rajkumar2002-Rk/CineNeuro)** | Predicts a human audience's brain response to a trailer before anyone watches it |
+| 🏥 | **[MedEval](https://github.com/Rajkumar2002-Rk/MedEval)** | ER triage assistant where 68 clinical rules — not the LLM — assign urgency |
+| 📚 | **[RAG Chatbot](https://github.com/Rajkumar2002-Rk/rag-chatbot)** | Citation-grounded document QA that refuses to answer when context is thin |
 
-<sub>All four public demos run on AWS EC2 behind Nginx + Let's Encrypt. Docker Compose, cross-built `linux/amd64`, pushed through Docker Hub.</sub>
+<sub>ai-org is self-hosted. The other four were deployed as public demos on AWS EC2 behind Nginx + Let's Encrypt (Docker Compose, cross-built `linux/amd64`, pushed through Docker Hub). Those hosted demos are currently offline.</sub>
 
 </div>
 
@@ -50,7 +50,7 @@ Rules decide. The model explains. That is the difference between a demo and some
 
 ## About Me
 
-I'm an AI Engineer working on **LLM systems that survive contact with production** — multi-agent pipelines, agentic orchestration, retrieval, and the unglamorous infrastructure that keeps them honest.
+I'm an AI Engineer working on **LLM systems where deterministic code checks the model's work** — multi-agent pipelines, agentic orchestration, retrieval, and the unglamorous infrastructure that keeps them honest.
 
 The pattern in everything I build is the same: I don't let a language model make the decision that matters. In **Fintel** a deterministic scoring engine issues the BUY/HOLD/SELL and GPT-4o is only allowed to explain it. In **MedEval** a pure-Python rules engine assigns the ESI urgency level and the LLM is structurally barred from touching it. In **ai-org** roughly 56 deterministic integrity gates stand between generated code and a deploy, each one grounded in a real captured bug and locked with a regression test. The model is a component, not the architecture.
 
@@ -58,10 +58,8 @@ The pattern in everything I build is the same: I don't let a language model make
 - **Multi-agent engineering** — specialised agents for analysis, architecture, codegen, security review, QA and deploy, coordinated end to end without a human in the loop
 - **Retrieval** — adaptive chunking, MMR + BM25 hybrid retrieval, score-based reranking, citation injection, confidence guardrails that refuse rather than hallucinate
 - **Reliability engineering for LLM output** — deterministic gates, regression-locked fixes, hallucinated-import blocklists, self-healing rewrite loops, LLM-as-judge evaluation harnesses
-- **Applied research** — Meta FAIR's TRIBE v2 brain-encoding model in a real product, with a fix contributed back upstream
-- **Production infrastructure** — FastAPI, Docker multi-stage builds, AWS EC2, Nginx, Let's Encrypt, GitHub Actions CI, Redis, Postgres, Langfuse tracing
-
-> *A model that doesn't reach production is a prototype. A model nobody can trust in production is a liability.*
+- **Applied research** — Meta FAIR's TRIBE v2 brain-encoding model wired into an end-to-end pipeline, with a fix submitted upstream (PR open)
+- **Deployment infrastructure** — FastAPI, Docker multi-stage builds, AWS EC2, Nginx, Let's Encrypt, GitHub Actions CI, Redis, Postgres, Langfuse tracing
 
 ---
 
@@ -75,8 +73,7 @@ The pattern in everything I build is the same: I don't let a language model make
 | **Autonomous certified deploy** | Run **2081** — security reviewer found *and repaired* a live JWT-in-URL vuln | ai-org |
 | **Under-triage rate** | **20% → 10%** after tuning, across a 50-case harness | MedEval |
 | **Clinical rules, zero LLM in the decision** | **68** YAML rules across 4 tiers, all carrying a decision point | MedEval |
-| **Neural prediction resolution** | **20,484** fMRI vertices per segment → 7 brain regions → 5 emotions | CineNeuro |
-| **Cost displaced** | replaces a **$50K–$200K** studio focus group with a software pipeline | CineNeuro |
+| **Neural prediction resolution** | **20,484** predicted fMRI vertices per segment (TRIBE v2 output) | CineNeuro |
 | **Investment report latency** | **< 30 seconds** end to end, 9-node LangGraph | Fintel |
 | **Retrieval discipline** | MMR (λ=0.7) + hybrid BM25, reranked, **refuses below 0.15** confidence | RAG Chatbot |
 
@@ -142,7 +139,7 @@ All 12 offline suites green.
 
 ## 📈 Fintel — AI Financial Research Agent
 
-**[Live ↗](https://fintel.rajkumarai.dev)** · **[Repository ↗](https://github.com/Rajkumar2002-Rk/financial-research-agent)**
+**[Repository ↗](https://github.com/Rajkumar2002-Rk/financial-research-agent)**
 
 > *Enter a ticker, get a deterministic BUY / HOLD / SELL / INSUFFICIENT_DATA call with a confidence score, a full score breakdown, and a plain-English explanation.*
 
@@ -190,11 +187,11 @@ flowchart LR
 
 ## 🎬 CineNeuro — AI Audience Intelligence
 
-**[Live ↗](https://cineneuro.rajkumarai.dev)** · **[Repository ↗](https://github.com/Rajkumar2002-Rk/CineNeuro)**
+**[Repository ↗](https://github.com/Rajkumar2002-Rk/CineNeuro)**
 
 > *Predicts the second-by-second neural engagement of a human audience watching a movie trailer — before it is shown to a single real person.*
 
-Upload an MP4 and get a brain engagement timeline, scene-level insights, audience persona breakdown, competitive benchmarking, and a downloadable PDF report. It replaces a $50K–$200K studio focus group with a software pipeline.
+Upload an MP4 and get a brain engagement timeline, scene-level insights, audience persona breakdown, competitive benchmarking, and a downloadable PDF report.
 
 Built on **Meta FAIR's TRIBE v2** brain-encoding model, vendored and modified — three multimodal encoders feeding a predictor that outputs **20,484 fMRI vertices per segment**.
 
@@ -224,7 +221,7 @@ MP4 (≤500MB) → events_df (video / audio / word events via MoviePy + WhisperX
 
 **Feature extractors** — V-JEPA2 `vjepa2-vitg-fpc64-256` (4.14GB, video @ 2fps / 4s clips) · Wav2Vec-BERT `w2v-bert-2.0` (2.32GB, audio @ 2Hz) · Llama 3.2 3B (6.43GB, contextualized text). Each caches 20 layers; first cold run is 2+ hours on CPU, subsequent runs are instant.
 
-**Deployment split** — a `t3.micro` stays always-on serving the React frontend and three pre-computed demos (Sintel 53 segments · The Odyssey 224 · Hokum 187). A `g4dn.xlarge` (Tesla T4, $0.526/hr) spins up on demand for live inference. The production image ships no models — it serves results.
+**Deployment split** (hosted demo, currently offline) — a `t3.micro` served the React frontend and three pre-computed demos (Sintel 53 segments · The Odyssey 224 · Hokum 187). A `g4dn.xlarge` (Tesla T4, $0.526/hr) was started on demand for live inference. The deployed image ships no models — it serves results.
 
 </details>
 
@@ -234,7 +231,7 @@ MP4 (≤500MB) → events_df (video / audio / word events via MoviePy + WhisperX
 
 ## 🏥 MedEval — Healthcare Triage Assistant
 
-**[Live ↗](https://medeval.rajkumarai.dev)** · **[Repository ↗](https://github.com/Rajkumar2002-Rk/MedEval)**
+**[Repository ↗](https://github.com/Rajkumar2002-Rk/MedEval)**
 
 > *Free-text chief complaint in, an Emergency Severity Index level (1–5) out — with the exact rules that produced it.*
 
@@ -277,9 +274,9 @@ Two UI modes: **patient view** shows the explanation only; **doctor view** shows
 
 ---
 
-## 📚 Enterprise RAG Chatbot
+## 📚 RAG Chatbot
 
-**[Live ↗](https://chatbot.rajkumarai.dev)** · **[Repository ↗](https://github.com/Rajkumar2002-Rk/rag-chatbot)**
+**[Repository ↗](https://github.com/Rajkumar2002-Rk/rag-chatbot)**
 
 > *Citation-grounded document QA that refuses to answer when the retrieved context isn't good enough.*
 
@@ -317,13 +314,13 @@ rate limit (20/min) → token guard (400) → query cap (500 chars)
 
 <div align="center">
 
-### Contributed a fix to **Meta FAIR** — [`facebookresearch/tribev2`](https://github.com/facebookresearch/tribev2)
+### Submitted a fix to **Meta FAIR** — [`facebookresearch/tribev2`](https://github.com/facebookresearch/tribev2)
 
-**[PR #20 — `fix: use int8 compute type for WhisperX on non-CUDA devices` ↗](https://github.com/facebookresearch/tribev2/pull/20)**
+**[PR #20 — `fix: use int8 compute type for WhisperX on non-CUDA devices` ↗](https://github.com/facebookresearch/tribev2/pull/20)** · open, awaiting review
 
 </div>
 
-While building CineNeuro I hit a crash in TRIBE v2's `eventstransforms.py`: it requested `float16` unconditionally, which CTranslate2 and WhisperX cannot execute on CPU. The fix selects `int8` on CPU and keeps `float16` on GPU — a real bug found by using the research code in production, and sent back upstream.
+While building CineNeuro I hit a crash in TRIBE v2's `eventstransforms.py`: it requested `float16` unconditionally, which CTranslate2 and WhisperX cannot execute on CPU. The fix selects `int8` on CPU and keeps `float16` on GPU — a real bug found by running the research code on a non-CUDA machine, and sent upstream.
 
 ---
 
